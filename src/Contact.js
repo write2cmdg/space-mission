@@ -5,7 +5,7 @@ function Contact() {
             <h2>Contact</h2>
             <img src="./team.jpg" alt="Mars" className="img-fluid" />
             <table className="table">
-                <tbody>
+                <tbody style={{color:"gray"}} >
                 <tr>
                     <th>Dr. Bennet Radlow</th>
                     <td>Mars Mission Dept Head</td>
