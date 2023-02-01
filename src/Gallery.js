@@ -17,7 +17,7 @@ function Gallery() {
         <div className="col-12">
             <h2>Gallery</h2>
             <p>These are the last known images the Rover had taken before going offline.</p>
-            <div className="row">
+            <div style={{"height":"175%"}, {"width":"175%"}} className="row">
                 { !loading && data ? data.photos.map((photo) => <Photo key={photo.id} photo={photo} /> ) : <Spinner />}
             </div>
         </div>
